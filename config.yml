@@ -1,0 +1,8 @@
+permissions:
+  use: scripter.use
+scripts:
+  'world,0,0,0':
+    - 'changeBlock @world,0,0,0 >35:14'
+    - 'tp >world,100,0,100'
+    - 'message >Muhahahaha!'
+    - 'changeBlock @world,0,0,0 >35:0'

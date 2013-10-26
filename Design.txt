@@ -1,0 +1,18 @@
+== Design ==
+
+comand @target >paramter
+
+-----
+
+== Script Commands ==
+
+wait:TIMEINMILLISECONDS
+    'wait >1000' - waits 1 second before continuing script
+changeBlock @LOCATION >BLOCKID:BLOCKDURABILITY
+    'changeBlock @world,100,30,104 >35:14' - changes the block at that location to red wool
+tp >LOCATION
+    'tp >world_nether,0,500,-410' - teleports the player into the nether at that location
+message >MESSAGE
+    'message >&7The door creeks slowly as you approach ...' - sends that message to the player
+playEffect >EFFECT
+    'playEffect >smoke' - plays the smoke effect at that location

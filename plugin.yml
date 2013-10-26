@@ -1,0 +1,12 @@
+name: DarkScripter
+author: Celeo
+version: 0.1.0.1
+website: www.darktidegames.com
+description: Scipting
+main: com.darktidegames.celeo.scripter.DarkScripter
+depends: [Empyrean]
+commands:
+  scripter:
+    usage: /<command> [parameter(s)]
+    description: Plugin commands - darktidegames.com/wiki.php?t=DarkScripter
+    aliases: [scripter, script, darkscripter, scr]
